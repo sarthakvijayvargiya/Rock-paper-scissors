@@ -1,0 +1,38 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #d6d2d2;
+}
+h1 {
+  padding-bottom: 20px;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+#button {
+  background-color: #1f271b;
+  color: #d6d2d2;
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: large;
+  font-weight: 500;
+  border-radius: 30px;
+  cursor: pointer;
+}
